@@ -1,0 +1,19 @@
+.img{
+    width: 800px;
+    height: 500px;
+    margin-left: 20%;
+}
+.logo{
+    width: 150px;
+    height: 100px;
+    margin-left: 70px;
+    border-radius: 100%;
+}
+.hover{
+    width: 20%;
+    height: 20%;
+    cursor: pointer;
+}
+body{
+    background-color:#272629;
+}
