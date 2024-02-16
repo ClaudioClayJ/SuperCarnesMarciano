@@ -1,6 +1,6 @@
 .img{
-    width: 800px;
-    height: 500px;
+    width: 60%;
+    height: 450px;
     margin-left: 20%;
     border-radius: 3%;
     border: solid rgb(255, 255, 255) 2px;
@@ -11,17 +11,19 @@
     border-radius: 5%;
     
 }
-.hover{
+.link{
     width: 20%;
     height: 20%;
     cursor: pointer;
+    font-size:100%;
 }
 body{
     background-image: linear-gradient(rgb(74, 24, 0),black);
 }
 .row,#carouselExampleDark,.container{
-     background-color:rgba(255, 0, 0, 0);
+     background-color:rgba(255, 255, 255, 0);
      font-family: Georgia, 'Times New Roman', Times, serif;
+     color: white;
 }
 .row1{
     background-color: black;
