@@ -3,12 +3,13 @@
     height: 500px;
     margin-left: 20%;
     border-radius: 3%;
+    border: solid rgb(255, 255, 255) 2px;
 }
 .logo{
-    width: 150px;
+    width: 200px;
     height: 100px;
-    margin-left: 70px;
-    border-radius: 100%;
+    border-radius: 5%;
+    
 }
 .hover{
     width: 20%;
@@ -16,5 +17,23 @@
     cursor: pointer;
 }
 body{
-    background-color:#272629;
+    background-image: linear-gradient(rgb(74, 24, 0),black);
+}
+.row,#carouselExampleDark,.container{
+     background-color:rgba(255, 0, 0, 0);
+     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.row1{
+    background-color: black;
+}
+.corfonte{
+color: white;
+text-align: center;
+text-shadow: px 1px 1px white;
+}
+.sociais{
+background-color: white;
+border-radius: 40%;
+width:25px ;
+height:25px ;
 }
