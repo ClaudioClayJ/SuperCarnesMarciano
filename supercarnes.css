@@ -1,12 +1,11 @@
 .img{
-    width: 60%;
+    width: 55%;
     height: 450px;
-    margin-left: 20%;
     border-radius: 3%;
     border: solid rgb(255, 255, 255) 2px;
 }
 .logo{
-    width: 200px;
+    width: 300px;
     height: 100px;
     border-radius: 5%;
     
@@ -18,15 +17,13 @@
     font-size:100%;
 }
 body{
-    background-image: linear-gradient(rgb(74, 24, 0),black);
+    background-image: linear-gradient(rgb(255, 0, 0),rgb(0, 0, 0));
 }
 .row,#carouselExampleDark,.container{
-     background-color:rgba(255, 255, 255, 0);
-     font-family: Georgia, 'Times New Roman', Times, serif;
      color: white;
 }
 .row1{
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
 .corfonte{
 color: white;
@@ -38,4 +35,9 @@ background-color: white;
 border-radius: 40%;
 width:25px ;
 height:25px ;
+}
+.botao{
+border-radius: 3%;
+border: solid white 2px;
+margin: 1%;
 }
