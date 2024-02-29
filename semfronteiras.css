@@ -1,0 +1,23 @@
+body{
+    background-color: #0F0F0F;
+}
+
+.p1{
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(255, 255, 255));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 160%;
+}
+.img{
+    border: solid rgb(139, 100, 0) 4px;
+    border-radius: 5%;
+    margin-bottom: 3%;
+}
+h1,h2,h3{
+    background-image: linear-gradient(rgb(255, 0, 0),rgb(255, 196, 0),rgb(255, 0, 0));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}

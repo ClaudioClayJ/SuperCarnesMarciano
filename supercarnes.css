@@ -55,7 +55,7 @@ p{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 a:hover{
-    background-image: linear-gradient(rgb(255, 0, 0), rgb(255, 0, 0));
+    background-image: linear-gradient(rgb(255, 0, 0),rgb(255, 225, 0), rgb(255, 0, 0));
     background-clip: text;
     -webkit-text-fill-color: transparent;
     color: black;
