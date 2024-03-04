@@ -1,0 +1,35 @@
+.container-fluid{
+    background-color: black;
+    text-align: center;
+}
+body{
+    background-image: linear-gradient(#DC7700,rgb(93, 45, 0));
+}
+img{
+    width: 350px;
+    height: 350px;
+    border: solid rgba(0, 0, 0, 0.409) 3px;
+    border-radius: 3%;
+}
+.logo{
+    width: 250px;
+    height: 300px;
+    margin-left: 50%;
+}
+h1{
+font-family: 'Times New Roman', Times, serif;
+background-image: linear-gradient(yellow,white);
+background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.carousel-inner{
+    margin-left: 4%;
+}
+.degrade{
+font-family: 'Times New Roman', Times, serif;
+background-image: linear-gradient(rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0));
+background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
