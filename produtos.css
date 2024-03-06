@@ -28,7 +28,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .degrade{
 font-family: 'Times New Roman', Times, serif;
-background-image: linear-gradient(rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0));
+background-image: linear-gradient(rgb(255, 251, 0), 255),rgb(255, 255, 255);
 background-clip: text;
 -webkit-text-fill-color: transparent;
 font-family: Georgia, 'Times New Roman', Times, serif;
