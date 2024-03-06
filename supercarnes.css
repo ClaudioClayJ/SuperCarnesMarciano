@@ -18,7 +18,7 @@ text-align: center;
     text-decoration: none;
 }
 body{
-    background-image: linear-gradient(#DC7700,rgb(93, 45, 0));
+    background-image: linear-gradient(#0F0F0F,#0F0F0F);
 }
 .corfonte{
 color: rgb(0, 0, 0);
@@ -60,4 +60,8 @@ a:hover{
     -webkit-text-fill-color: transparent;
     color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.carousel-control-prev-icon{
+    color: aliceblue;
+    background-color: aliceblue;
 }
