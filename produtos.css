@@ -1,5 +1,5 @@
 .container-fluid{
-    background-color: black;
+    background-color: #0F0F0F;
     text-align: center;
 }
 body{
@@ -8,7 +8,6 @@ body{
 img{
     width: 350px;
     height: 350px;
-    border: solid rgba(0, 0, 0, 0.409) 3px;
     border-radius: 3%;
 }
 .logo{
@@ -32,4 +31,27 @@ background-image: linear-gradient(rgb(255, 251, 0), 255),rgb(255, 255, 255);
 background-clip: text;
 -webkit-text-fill-color: transparent;
 font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{  
+    padding-top: 2%;
+    padding-left: 4%;
+    padding-right: 2%;
+    text-align: justify;
+    color: aliceblue;
+    font-size: 150%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a{
+    background-image: linear-gradient(yellow,white);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a:hover{
+    background-image: linear-gradient(rgb(255, 0, 0),rgb(255, 225, 0), rgb(255, 0, 0));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 120%;
 }
