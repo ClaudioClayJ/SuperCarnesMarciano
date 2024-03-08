@@ -1,5 +1,8 @@
 body{
     background-color: #0F0F0F;
+    min-width: 320px;
+    max-width: 1460px;
+    width: auto;    
 }
 
 .p1{
