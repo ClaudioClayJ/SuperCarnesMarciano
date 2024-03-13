@@ -13,95 +13,96 @@
   </head>
   
   <body>
-    <div style="background-color: #0F0F0F;" class="container-fluid">
+    <div id="main">
+      <div style="background-color: #0F0F0F;" class="container-fluid">
+        <div class="row">
+          <div style="padding-left: 5%;" class="col-2 mt-2">
+            <img class="logo" src="./imagens/logo marciano.png" alt="">
+          </div>
+          <div id="cabeca" class="col-6 mt-4 offset-1">
+            <h1 class="gradient" style="text-align: center; font-size: 400%; ">HORÁRIOS DE SERVIÇOS</h1>
+            <h2 class="gradient" style="text-align: center; font-size: 300%;">De segunda a Domingo</h2>
+          </div>
+          <div id="sociais" class="col-3">
+            <h4 class="gradient" style="text-align: center;margin-top: 20%;">REDES SOCIAIS</h4>
+            <p style="text-align: center; padding-left: 1%;">
+              <a href="https://www.instagram.com/marciano_beef/" target="_blank"><img class="sociais" src="./imagens/redes sociais/instagram.png.svg" alt=""></a>
+              <a href="https://www.facebook.com/supercarnesmarciano/?locale=pt_BR" target="_blank"><img class="sociais" src="./imagens/redes sociais/facebook.svg" alt=""></a>
+              <a href="https://api.whatsapp.com/send?phone=5563992276016" target="_blank"><img class="sociais" src="./imagens/redes sociais/whatsapp.svg" alt=""></a>
+            </p>
+            <h5 class="gradient" style="text-align: center; margin-top: 10%;">SOBRE NÓS</h5>
+          </div>
+          </div>
+      </div>
+        <div id="tabela" style="background-color: #0F0F0F; margin-top: 1%;font-size: 150%;" class="row">
+          <div style="margin-top: 1%;text-align: center; " class="col-3 offset-1 linkbotao">
+              <a href="./produtos.html">PRODUTOS</a>
+          </div>
+          <div style="margin-top: 1%; text-align: center; " class="col-3   linkbotao ">
+            <a href="./semfronteiras.html">CHURRASCO MOVEL</a>
+          </div>
+          <div style="margin-top: 1%;text-align: center;  width: auto;padding-left: 8%;" class="col-3 linkbotao ">
+            <a href="https://api.whatsapp.com/send?phone=5563992276016" target="_blank">ENCOMENDAS</a>
+          </div>
+        </div>
+      <div style="margin-top: 1%;" class="row mt-5">
+        <!-- linha do carrossel -->
+        <div id="corpo" class="col-12">
+          <!--início do carrossel -->
+          <h1 style="text-align: center;" class="gradient2 cortes " >OS MELHORES CORTES</h1>
+          <div style="text-align: center;" id="carouselExampleDark" class="carousel carousel-dark slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner ">
+              <div class="carousel-item active " data-bs-interval="10000">
+                <img class="img" src="./IMAGENS CLIENTE/Foto1CARROSSEL.jpg" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 style="font-size: 30px;" class="gradient">MARCIANO BEEF PRIME</h5>
+                  <p style="font-size: 30px;" class="gradient">QUALIDADE QUE SÓ A GENTE TEM.</p>
+                </div>
+              </div>
+              <div class="carousel-item " data-bs-interval="2000">
+                <img class="img" src="./IMAGENS CLIENTE/foto2carrossel.jpg" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 style="font-size: 25px;" class="gradient" >ESPECIALIDADE EM CARNES</h5>
+                  <p style="font-size: 30px;" class="gradient" >NÓS NÃO CORTAMOS, NÓS MOLDAMOS</p>
+                </div>
+              </div>
+              <div class="carousel-item ">
+                <img class="img" src="./IMAGENS CLIENTE/prime rib.jpg" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 style="font-size: 25px;" class="gradient" >PRIME RIB</h5>
+                  <p style="font-size: 30px;" class="gradient" >EXPERIMENTE AGORA</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" style="color: red; background-color: red; border-radius: 100%;" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true" style=" background-color: rgb(255, 0, 0);border-radius: 100%;"></span>
+              <span class="visually-hidden" >Next</span>
+            </button>
+          </div>
+          <!-- fim do carrossel -->
+        </div>
+      </div>
       <div class="row">
-        <div style="padding-left: 5%;" class="col-2 mt-2">
-          <img class="logo" src="./imagens/logo marciano.png" alt="">
-        </div>
-        <div id="cabeca" class="col-6 mt-4 offset-1">
-          <h1 class="gradient" style="text-align: center; font-size: 400%; ">HORÁRIOS DE SERVIÇOS</h1>
-          <h2 class="gradient" style="text-align: center; font-size: 300%;">De segunda a Domingo</h2>
-        </div>
-        <div id="sociais" class="col-3">
-          <h4 class="gradient" style="text-align: center;margin-top: 20%;">REDES SOCIAIS</h4>
-          <p style="text-align: center; padding-left: 1%;">
-            <a href="https://www.instagram.com/marciano_beef/" target="_blank"><img class="sociais" src="./imagens/redes sociais/instagram.png.svg" alt=""></a>
-            <a href="https://www.facebook.com/supercarnesmarciano/?locale=pt_BR" target="_blank"><img class="sociais" src="./imagens/redes sociais/facebook.svg" alt=""></a>
-            <a href="https://api.whatsapp.com/send?phone=5563992276016" target="_blank"><img class="sociais" src="./imagens/redes sociais/whatsapp.svg" alt=""></a>
+        <div class="col">
+          <p class="gradient" style="text-align: center;">
+            <img class="sociais" src="./imagens/redes sociais/Localização.svg" alt="">
+            <a href="./localização.html" >Venha nos conhecer!</a>
           </p>
-          <h5 class="gradient" style="text-align: center; margin-top: 10%;">SOBRE NÓS</h5>
         </div>
-        </div>
-    </div>
-      <div id="tabela" style="background-color: #0F0F0F; margin-top: 1%;" class="row">
-        <div style="margin-top: 1%;text-align: center; font-size: 141%;" class="col-3 offset-1 linkbotao">
-            <a href="./produtos.html">PRODUTOS</a>
-        </div>
-        <div style="margin-top: 1%; text-align: center; font-size: 141%;" class="col-4   linkbotao ">
-          <a href="./semfronteiras.html">CHURRASCO SEM FRONTEIRAS</a>
-        </div>
-        <div style="margin-top: 1%;text-align: center; font-size: 141%; width: auto;" class="col-3 linkbotao ">
-          <a href="https://api.whatsapp.com/send?phone=5563992276016" target="_blank">ENCOMENDAS</a>
-        </div>
-
-      </div>
-    <div style="margin-top: 1%;" class="row mt-5">
-      <!-- linha do carrossel -->
-      <div id="corpo" class="col-12">
-        <!--início do carrossel -->
-        <h1 style="text-align: center;" class="gradient2 cortes " >OS MELHORES CORTES</h1>
-        <div style="text-align: center;" id="carouselExampleDark" class="carousel carousel-dark slide">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
-              aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
-              aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
-              aria-label="Slide 3"></button>
-          </div>
-          <div class="carousel-inner ">
-            <div class="carousel-item active " data-bs-interval="10000">
-              <img class="img" src="./IMAGENS CLIENTE/Foto1CARROSSEL.jpg" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5 style="font-size: 30px;" class="gradient">MARCIANO BEEF PRIME</h5>
-                <p style="font-size: 30px;" class="gradient">QUALIDADE QUE SÓ A GENTE TEM.</p>
-              </div>
-            </div>
-            <div class="carousel-item " data-bs-interval="2000">
-              <img class="img" src="./IMAGENS CLIENTE/foto2carrossel.jpg" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5 style="font-size: 25px;" class="gradient" >ESPECIALIDADE EM CARNES</h5>
-                <p style="font-size: 30px;" class="gradient" >NÓS NÃO CORTAMOS, NÓS MOLDAMOS</p>
-              </div>
-            </div>
-            <div class="carousel-item ">
-              <img class="img" src="./IMAGENS CLIENTE/prime rib.jpg" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5 style="font-size: 25px;" class="gradient" >PRIME RIB</h5>
-                <p style="font-size: 30px;" class="gradient" >EXPERIMENTE AGORA</p>
-              </div>
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" style="color: red; background-color: red; border-radius: 100%;" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true" style=" background-color: rgb(255, 0, 0);border-radius: 100%;"></span>
-            <span class="visually-hidden" >Next</span>
-          </button>
-        </div>
-        <!-- fim do carrossel -->
-      </div>
-    </div>
-    <div class="row">
-      <div class="col">
-        <p class="gradient" style="text-align: center;">
-          <img class="sociais" src="./imagens/redes sociais/Localização.svg" alt="">
-          <a href="./localização.html" >Venha nos conhecer!</a>
-        </p>
       </div>
     </div>
 </body>
