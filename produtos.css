@@ -20,7 +20,7 @@ img{
 .logo{
     width: 250px;
     height: 300px;
-    margin-left: 50%;
+    margin-left: 0%;
 }
 h1{
 font-family: 'Times New Roman', Times, serif;
@@ -62,9 +62,12 @@ a:hover{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 120%;
 }
-@media (max-width:460px ){
-#main{width:450px !important ;}
-.container-fluid{width: 430px !important;}
-.logo{width: 30px;height: 50px;margin: 0%;padding:0%;}
-h1{font-size: 15px;padding: 0%;margin: 0%;}    
+@media (max-width:460px){
+#main{width:360px;margin-left: 2px;padding: 0% !important;}
+.logo{width: 30px;height: 50px;margin: 0%;padding:0% !important;}
+h1{font-size: 15px;padding: 0%;margin: 0%; margin-left: -5% !important;}
+img{width: 200px; height: 147px; margin-bottom: 5%; padding-left: 7%!important;}
+p{font-size: 20px;}
+#titulo{margin-left: 5%; width: 65%;}
+.publi{padding-left: 10%;}  
 }
