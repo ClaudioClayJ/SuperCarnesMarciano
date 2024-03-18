@@ -1,0 +1,35 @@
+body{
+    background-color: #0F0F0F;
+    min-width: 320px;
+    max-width: 1460px;
+    width: auto;
+}
+.texto{
+ text-align: justify;
+ margin: 1%;
+}
+img{
+width: 40%;
+height: 300px; 
+}
+p{
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(255, 255, 255));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 160%;
+}
+h1{
+    background-image: linear-gradient(rgb(255, 0, 0),rgb(255, 196, 0),rgb(255, 0, 0));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.logo{
+width: auto;
+height: 200px;
+}
+@media(max-width:460px){
+    
+}
