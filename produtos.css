@@ -63,11 +63,12 @@ a:hover{
     font-size: 120%;
 }
 @media (max-width:460px){
-#main{width:360px;margin-left: 2px;padding: 0% !important;}
-.logo{width: 30px;height: 50px;margin: 0%;padding:0% !important;}
-h1{font-size: 15px;padding: 0%;margin: 0%; margin-left: -5% !important;}
-img{width: 200px; height: 147px; margin-bottom: 5%; padding-left: 7%!important;}
-p{font-size: 20px;}
-#titulo{margin-left: 5%; width: 65%;}
-.publi{padding-left: 10%;}  
+#main{width:360px !important;margin-left: 2px !important;padding: 0% !important;}
+.logo{width: 30px !important;height: 50px !important;margin: 0% !important;padding:0% !important;}
+h1{font-size: 15px!important;padding: 0%!important;margin: 0%!important; margin-left: -3% !important;}
+img{width: 200px!important; height: 147px!important; margin-bottom: 5%!important; padding-left: 7%!important;}
+p{font-size: 20px !important;}
+#titulo{margin-left: 5%!important; width: 65% !important;}
+.publi{padding-left: 10% !important ;}
+.desta{padding-left: 2% !important;}
 }

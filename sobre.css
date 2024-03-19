@@ -8,9 +8,16 @@ body{
  text-align: justify;
  margin: 1%;
 }
+.logo{
+    width: 40%;
+    height: 300px; 
+    border: solid rgba(139, 100, 0, 0) 4px;;
+}
 img{
-width: 40%;
-height: 300px; 
+    width: 40%;
+    height: 300px;
+    border-radius: 5%;
+    border: solid rgb(139, 100, 0) 4px;; 
 }
 p{
     background-image: linear-gradient(rgb(255, 255, 255),rgb(255, 255, 255));
@@ -31,5 +38,7 @@ width: auto;
 height: 200px;
 }
 @media(max-width:460px){
-    
+p{font-size: 16px !important ;} 
+.logo{width:45px; height: 60px !important; margin-top: 20% !important;}
+img{margin: 0%; padding: 0% !important ; width:250px !important; height: 150px !important;} 
 }

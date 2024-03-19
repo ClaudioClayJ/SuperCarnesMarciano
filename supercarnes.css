@@ -72,11 +72,11 @@ a:hover{
 }
 
 @media (max-width:460px){
-.img{width: 300px; height: 200px;}
-.logo{width: 50px;height: 70px;}
-.logop2{text-align: center; font-size: small;}
-#cabeca{width: 280px;font-size: 32%; margin: 0%;}
-#sociais{width: 350px;font-size: 20px; margin: 0%; margin-bottom: 5%; margin-left: 1%;}
-#tabela{text-align: center;margin: 0%;padding: 0%; width: 360px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 12.5px !important;}
-.cortes{font-size: 20px; width: 300px;margin-left: 10%;}
+.img{width: 300px!important; height: 200px!important;}
+.logo{width: 50px!important;height: 70px!important;}
+.logop2{text-align: center!important; font-size: small!important;}
+#cabeca{width: 280px!important;font-size: 32%!important; margin: 0%!important;}
+#sociais{width: 350px!important;font-size: 20px!important; margin: 0%; margin-bottom: 5%; margin-left: 1%!important;}
+#tabela{text-align: center !important;margin: 0% !important;padding: 0%; width: 360px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important; font-size: 12.5px !important;}
+.cortes{font-size: 20px!important ; width: 300px !important;margin-left: 10%!important;}
 }
