@@ -72,11 +72,12 @@ a:hover{
 }
 
 @media (max-width:460px){
-.img{width: 300px!important; height: 200px!important;}
-.logo{width: 50px!important;height: 70px!important;}
-.logop2{text-align: center!important; font-size: small!important;}
-#cabeca{width: 280px!important;font-size: 32%!important; margin: 0%!important;}
-#sociais{width: 350px!important;font-size: 20px!important; margin: 0%; margin-bottom: 5%; margin-left: 1%!important;}
-#tabela{text-align: center !important;margin: 0% !important;padding: 0%; width: 360px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important; font-size: 12.5px !important;}
-.cortes{font-size: 20px!important ; width: 300px !important;margin-left: 10%!important;}
+#main{width: 100% !important;}
+.img{width: 80%!important; height: 100%!important;}
+.logo{width:100%!important;height: 100%!important; margin: 0% !important;padding: 0% !important; margin-bottom: 20% !important;}
+.logop2{text-align: center!important; font-size:100%!important;}
+#cabeca{width: 100%!important;font-size: 35%!important; margin: 0%!important;}
+#sociais{width: 100%!important;font-size: 10%!important; margin: 0%; margin-bottom: 5% !important;}
+#tabela{text-align: center !important;margin: 0% !important;padding: 0% !important; width: 100% !important ;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important; font-size: 76% !important;}
+.cortes{font-size: 100%!important ; width: 100% !important;}
 }
